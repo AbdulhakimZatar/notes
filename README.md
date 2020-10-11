@@ -13,12 +13,12 @@ A terminal based (CLI) application allowing users to easily create and manage a 
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `node index.js --add "This is a really cool thing that I wanted to remember for later"`
+- e.g. ```node index.js --add "This is a really cool thing that I wanted to remember for later"```
 
 #### How to use your library (where applicable)
 
 #### Tests
-Lint Tests: `npm run lint`
+Lint Tests: ```npm run lint```
 
 #### UML
 
