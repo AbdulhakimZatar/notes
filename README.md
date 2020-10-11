@@ -5,16 +5,20 @@ A terminal based (CLI) application allowing users to easily create and manage a 
 
 ### Author: Abdulhakim Zatar
 
+### Links and Resources
+
+- [ci/cd](https://github.com/zatar-401-advanced-javascript/notes/actions/new) (GitHub Actions)
+
 ### Setup
 
 #### How to initialize/run your application (where applicable)
 
-- setup npm `npm init -y`
-- minimist `npm i minimist`
+- e.g. `node index.js --add "This is a really cool thing that I wanted to remember for later"`
 
 #### How to use your library (where applicable)
 
-- e.g. `node index.js --add "This is a really cool thing that I wanted to remember for later"`
+#### Tests
+Lint Tests: `npm run lint`
 
 #### UML
 
