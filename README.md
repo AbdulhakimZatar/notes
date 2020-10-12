@@ -7,7 +7,7 @@ A terminal based (CLI) application allowing users to easily create and manage a 
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/zatar-401-advanced-javascript/notes/actions/new) (GitHub Actions)
+- [ci/cd](https://github.com/zatar-401-advanced-javascript/notes/actions) (GitHub Actions)
 
 ### Setup
 
