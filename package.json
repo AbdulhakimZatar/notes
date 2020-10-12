@@ -1,7 +1,7 @@
 {
   "name": "notes",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Project: Notesy A terminal based (CLI) application allowing users to easily create and manage a list of categorized notes",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -10,12 +10,13 @@
     "minimist": "^1.2.5"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3"
   },
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint **/*.js",
-    "test": "jest --verbose --coverage"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
