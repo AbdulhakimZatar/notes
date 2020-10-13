@@ -13,7 +13,13 @@ A terminal based (CLI) application allowing users to easily create and manage a 
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. ```node index.js --add "This is a really cool thing that I wanted to remember for later"```
+- e.g. ```node index.js --add "<note>" --category "<type>"```
+
+- e.g. ```node index.js --list```
+
+- e.g. ```node index.js --list "<type>"```
+
+- e.g. ```node index.js --delete <ID>```
 
 #### How to use your library (where applicable)
 
