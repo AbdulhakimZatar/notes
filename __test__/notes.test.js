@@ -3,7 +3,7 @@
 const Notes = require('../lib/notes.js');
 jest.spyOn(global.console,'log');
 
-describe('Notes Module', () =>{
+describe('Notes', () =>{
   it('does nothing if payload is empty', () =>{
     const note = new Notes();
     note.execute();

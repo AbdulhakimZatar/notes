@@ -6,12 +6,14 @@ const Input = require('../lib/input.js');
 jest.mock('minimist');
 minimist.mockImplementation(()=>{
   return {
-    add: 'test',
+    _:'',
+    add: 'testee',
+    category:'cat',
   };
 });
 
 describe('Input', ()=>{
-  xdescribe('validateAction', ()=>{
+  describe('validateAction', ()=>{
     it('return undefined if no action was found', ()=>{
       const options = new Input;
       expect(options.validateAction()).toBeUndefined();
@@ -22,7 +24,7 @@ describe('Input', ()=>{
     });
     it('return true if it is vaild action', ()=>{
       const options = new Input;
-      const obj = {a: 'test'};
+      const obj = {_:'',add: 'test', category:'cat'};
       expect(options.validateAction(obj)).toBeTruthy();
     });
   });
@@ -40,16 +42,17 @@ describe('Input', ()=>{
   describe('valid', () =>{
     it('return ture when proper object is given', () =>{
       const options = new Input;
-      options.action = 'add';
-      options.payload = 'test';
-      options.category = 'test';
+      // options.action = 'add';
+      // options.payload = 'test';
+      // options.category = 'test';
       expect(options.valid()).toBeTruthy();
     });
     it('return false when not a proper object is given', () =>{
       const options = new Input;
       options.action = undefined;
       options.payload = undefined;
-      expect(options.valid()).toBeFalsy();
+      options.category = undefined;
+      expect(options.valid()).toBeUndefined();
     });
   });
 });
