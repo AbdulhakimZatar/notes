@@ -1,0 +1,39 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "## Project: Notesy A terminal based (CLI) application allowing users to easily create and manage a list of categorized notes",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose",
+    "test2": "jest --verbose --coverage --watchAll",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulhakimZatar/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulhakimZatar/notes/issues"
+  },
+  "homepage": "https://github.com/AbdulhakimZatar/notes#readme"
+}
